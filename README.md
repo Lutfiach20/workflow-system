@@ -1,14 +1,14 @@
-# workflow-system
-Business process &amp; workflow system using Camunda, FastAPI, Neo4j, Elasticsearch, and Grafana for task management and monitoring.
-# Implementasi Business Process & Workflow System
+# Workflow System
+
+Business process & workflow system using Camunda, FastAPI, Neo4j, Elasticsearch, and Grafana for task management and monitoring.
 
 ## Deskripsi
-Project ini merupakan implementasi sistem workflow end-to-end berbasis business process untuk pengelolaan dan pemrosesan data task.
+Project ini merupakan implementasi sistem workflow end-to-end berbasis business process untuk mengelola dan memproses data task secara terstruktur dan terintegrasi.
 
 ## Tujuan
-- Meningkatkan efisiensi proses bisnis
+- Meningkatkan efisiensi dan otomatisasi proses bisnis
 - Mendukung monitoring sistem secara real-time
-- Mempermudah pengelolaan data berbasis workflow
+- Mempermudah pengelolaan dan analisis data berbasis workflow
 
 ## Arsitektur Sistem
 ![Architecture](docs/architecture.png)
@@ -16,21 +16,29 @@ Project ini merupakan implementasi sistem workflow end-to-end berbasis business 
 ## Business Process
 ![Business Process](docs/business-process.png)
 
+## Monitoring (Grafana)
+![Grafana](docs/grafana-dashboard.png)
+
+## Data Indexing (Elasticsearch)
+![Elasticsearch](docs/elasticsearch.png)
+
 ## Teknologi yang Digunakan
 - Camunda (Workflow Engine)
 - FastAPI (Backend API)
 - Neo4j (Graph Database)
-- Elasticsearch (Indexing Data)
-- Grafana (Monitoring & Visualisasi)
+- Elasticsearch (Data Indexing & Search)
+- Grafana (Monitoring & Visualization)
 
 ## Alur Sistem
 Camunda → Worker → FastAPI → Neo4j → Elasticsearch → Grafana
 
 ## Fitur Utama
-- Workflow otomatis berbasis business process
-- Integrasi API untuk pengelolaan data
-- Monitoring sistem dan visualisasi performa
+- Workflow otomatis berbasis business process (BPMN)
+- Integrasi API untuk pengelolaan data task
+- Monitoring sistem dan visualisasi performa secara real-time
+- Penyimpanan data relasional berbasis graph (Neo4j)
 
 ## Hasil
-- Sistem workflow terintegrasi
-- Monitoring dan analisis sistem lebih efisien
+- Implementasi sistem workflow terintegrasi end-to-end
+- Peningkatan efisiensi proses task berbasis automation
+- Monitoring dan analisis sistem menjadi lebih terstruktur dan real-time
