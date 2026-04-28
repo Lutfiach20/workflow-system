@@ -10,9 +10,6 @@ Project ini merupakan implementasi sistem workflow end-to-end berbasis business 
 - Mendukung monitoring sistem secara real-time
 - Mempermudah pengelolaan dan analisis data berbasis workflow
 
-## Arsitektur Sistem
-![Architecture](docs/architecture.png)
-
 ## Business Process
 ![Business Process](docs/business-process.png)
 
